@@ -1,1 +1,37 @@
-html here
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="basic.js" defer></script>
+</head>
+<body>
+    <table id="table">
+        <thead>
+            <tr><th>Username</th><th>Email</th><th>Admin</th></tr>
+        </thead>
+        <tbody>
+            <tr><td>Webmaster</td><td>master@email.com</td><td>X</td></tr>
+            <tr><td>User123</td><td>some@email.com</td><td>-</td></tr>
+            <tr><td>User666</td><td>another@email.com</td><td>-</td></tr>
+        </tbody>
+    </table>
+
+    <form acation="" method="GET" id="myForm">
+        <fieldset>
+            <label for="username">Username:</label>
+            <input type="text" name="Username" id="input-username">
+            <label for="email">Email:</label>
+            <input type="text" name="Email" id="input-email">
+            <label for="admin">Admin:</label>
+            <input type="checkbox" name="Admin" id="input-admin">
+            <label for="image">Image</label>
+            <input type="file" id="input-image" accept="image/*">
+        </fieldset>
+
+        <input type="submit" value="Submit">
+
+
+    </form>
+
+    <button id="empty-table">Empty</button>
+</body>
